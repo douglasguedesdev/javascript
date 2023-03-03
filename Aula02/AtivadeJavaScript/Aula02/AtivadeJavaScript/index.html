@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      
+    <script src ="aula01.js"></script>
+
+    <script> 
+        
+        var altura = [1.61, 1.83, 1.82, 1.72, 1.54, 1.71, 1.82, 1.93, 1.63, 1.51, 1.78, 1.75, 1.78, 1.48, 2.01];
+        var genero = ["M", "F", "M", "F", "M", "F", "M", "F", "M", "F", "M", "F", "M", "F", "M"];
+
+        function alturaMaior(altura) {
+            var maiorAltura = altura[0];
+            for (let i = 0; i < altura.length; i++) {
+                if (altura[i] > maiorAltura) {
+                    maiorAltura = altura[i];
+                }
+            }
+            return maiorAltura;
+        }
+
+        function alturaMenor(altura) {
+            var menorAltura = altura[0];
+            for (let i = 0; i < altura.length; i++) {
+                if (altura[i] < menorAltura[i]) {
+                    menor = altura[i];
+                }
+            }
+            return menorAltura;
+        }
+
+        
+
+    </script>
+
+    
+</body>
+</html>
